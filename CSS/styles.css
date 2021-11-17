@@ -174,7 +174,7 @@ hr {
   width: 100%;
 }
 
-.show {
+.shows {
   color: #fff;
   padding: 0 3.2rem;
   width: 70%;
@@ -189,20 +189,21 @@ hr {
   font-weight: 500;
 }
 
-/* .section {
+.section {
   color: #fff;
   padding: 0 3.2rem;
   width: 70%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  margin-bottom: 2.4rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.8rem;
+  margin: 3.2rem auto;
 }
 
 .flex {
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 30%;
   gap: 1.8rem;
 }
 
@@ -211,4 +212,110 @@ hr {
 }
 .catagory-description {
   font-size: 1.7rem;
-} */
+}
+
+.margin--top-1 {
+  margin-top: 0.8rem;
+}
+
+.margin--top-2 {
+  margin-top: 1.6rem;
+}
+
+.choose--plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading--plan {
+  margin-top: 2.4rem;
+  font-size: 3.2rem;
+}
+
+.section-table {
+  padding: 0 !important;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.icon-table {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.count {
+  width: 2.4rem;
+  height: 2.4rem;
+  stroke: #fff;
+}
+
+.table thead th {
+  gap: 1.6rem;
+  padding: 0 2.4rem 1.2rem 2.4rem;
+  font-size: 1.6rem;
+  /* justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center; */
+}
+
+.table tr {
+  display: grid;
+  grid-template-columns: 45% 17% 17% 17%;
+  gap: 1.6rem;
+  padding: 1.2rem 1rem;
+}
+
+tbody {
+  color: #999;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #222;
+}
+
+.table tbody tr td:first-child {
+  text-align: left;
+}
+td {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 0 2.4rem;
+}
+
+th {
+  align-self: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  color: #999;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer p {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.footer--inner-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.footer--link {
+  text-decoration: none;
+  color: #999;
+  font-size: 1.2rem;
+}
